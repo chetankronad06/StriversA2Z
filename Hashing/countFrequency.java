@@ -7,7 +7,7 @@ class countFrequency{
 			if(!visited[i]){
 				int num = arr[i];
 				int count =0;
-				for(int j =0;j<arr.length;j++){
+				for(int j =i+1;j<arr.length;j++){
 					if(num == arr[j]){
 						count ++;
 						visited[j] = true;
